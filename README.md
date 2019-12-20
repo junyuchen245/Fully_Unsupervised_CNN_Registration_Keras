@@ -8,11 +8,11 @@ We treat CNN as an optimization tool that iteratively minimizes the loss functio
 iteration. For now, the loss function is simply the image similarity measure (i.e., alpha = 0):
 <img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/loss.png" width="300"/>
 
-Different regularizations and more loss functions will be introduced in the final paper.
+So the deformation field is not smooth. In our application, diffeomorphism is not very important, but different regularizations and more loss functions will be introduced in the final paper.
 
 #### Some example data can be found here: <a href="https://drive.google.com/open?id=1cle8nV8g-xxt_SfaJxD-zMSnuXiZoygT"> required data</a>.
 
 
 ## Sample results for XCAT phantom to and patient CT registration:
-<img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/out.png" width="1100"/>
+<img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/out.png" width="1400"/>
 
