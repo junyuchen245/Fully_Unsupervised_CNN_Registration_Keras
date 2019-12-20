@@ -6,6 +6,7 @@ This is a Keras/Tensorflow implementation of my paper:
 
 We treat CNN as an optimization tool that iteratively minimizes the loss function via reparametrization in each
 iteration. This means that the algorithm is fully unsupervised and thus **no prior training is required**. For now, the loss function is simply the image similarity measure (i.e., alpha = 0):
+
 <img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/loss.png" width="300"/>
 
 Where I_d and I_f means the deformed and the fixed image, respectively. Since alpha = 0, the deformation field is not smooth. In our application, a smooth field is not very important, but different regularizations and more loss functions will be introduced in the final paper.
