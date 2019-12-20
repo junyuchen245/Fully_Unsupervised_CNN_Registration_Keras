@@ -92,9 +92,9 @@ class PCC():
     def pcc(self, y_true, y_pred):
         A_bar = tf.reduce_mean(y_pred)
         B_bar = tf.reduce_mean(y_true)
-        top = tf.reduce_sum((y_pred - A_bar) * (y_true - B_bar))
-        bottom = K.sqrt(tf.reduce_sum((y_pred - A_bar) ** 2) * tf.reduce_sum((y_true - B_bar) ** 2))
-        return top/bottom
+        num = tf.reduce_sum((y_pred - A_bar) * (y_true - B_bar))
+        den = K.sqrt(tf.reduce_sum((y_pred - A_bar) ** 2) * tf.reduce_sum((y_true - B_bar) ** 2))
+        return num/den
 
     def loss(self, I, J):
         return 1-self.pcc(I,J)
@@ -111,9 +111,9 @@ class PCC_SSIM():
     def pcc(self, y_true, y_pred):
         A_bar = tf.reduce_mean(y_pred)
         B_bar = tf.reduce_mean(y_true)
-        top = tf.reduce_sum((y_pred - A_bar) * (y_true - B_bar))
-        bottom = K.sqrt(tf.reduce_sum((y_pred - A_bar) ** 2) * tf.reduce_sum((y_true - B_bar) ** 2))
-        return top/bottom
+        num = tf.reduce_sum((y_pred - A_bar) * (y_true - B_bar))
+        den = K.sqrt(tf.reduce_sum((y_pred - A_bar) ** 2) * tf.reduce_sum((y_true - B_bar) ** 2))
+        return num/den
 
     def ssim(self, I, J):
         SSIM_idx = tf.image.ssim(I, J, max_val=self.maxVal)
