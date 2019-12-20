@@ -8,6 +8,6 @@ This is a simple implementation of my paper:
 
 
 ## Sample results for XCAT phantom to and patient CT registration:
-<img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/out.png" width="800"/>
+<img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/out.png" width="1000"/>
 
 
