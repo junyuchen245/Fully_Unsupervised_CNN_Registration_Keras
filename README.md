@@ -14,5 +14,5 @@ So the deformation field is not smooth. In our application, a smooth field is no
 
 
 ## Sample results for XCAT phantom to and patient CT registration:
-<img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/out.png" width="1400"/>
+<img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/out.png" width="2000"/>
 
