@@ -18,6 +18,6 @@ This program does 2D registration, the 3D version will be uploaded in the future
 <img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/Sample_out.png" width="1400"/>
 
 
-                                       Deformed Moving    Moving (XCAT)       Fixed (CT)     Deformed Labels
+                                        Deformed Moving    Moving (XCAT)       Fixed (CT)     Deformed Labels
  
 ### <a href="https://junyuchen245.github.io"> About Myself</a>
