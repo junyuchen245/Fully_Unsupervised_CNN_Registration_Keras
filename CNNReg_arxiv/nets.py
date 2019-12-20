@@ -19,13 +19,6 @@ def Mapping(input):
     output = tf.contrib.image.dense_image_warp(a,b,name='dense_image_warp')
     return output
 
-def repMat(input):
-    img = input[0]
-    vec = input[1]
-
-    output = tf.multiply(tf.ones_like(img),vec)
-    return output
-
 def concLayer(input):
     u = input[0]
     v = input[1]
