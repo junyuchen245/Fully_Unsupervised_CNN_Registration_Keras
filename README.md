@@ -12,6 +12,7 @@ Where I_d and I_f means the deformed and the fixed image, respectively. Since al
 
 #### Some example data can be found here: <a href="https://drive.google.com/open?id=1cle8nV8g-xxt_SfaJxD-zMSnuXiZoygT"> required data</a>.
 
+This program does 2D registration, the 3D version will be uploaded in the future.
 
 ## Sample results for XCAT phantom to and patient CT registration:
 <img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/Sample_out.png" width="1400"/>
