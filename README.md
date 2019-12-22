@@ -9,7 +9,7 @@ iteration. This means that the algorithm is fully unsupervised and thus **no pri
 
 <img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/loss.png" width="300"/>
 
-Where I_d and I_f means the deformed and the fixed image, respectively. Since alpha = 0, the deformation field is not smooth. In our application, a smooth field is not very important, but different regularizations and more loss functions will be introduced in the final paper.
+, where I_d and I_f are the deformed and the fixed image, respectively. Since alpha = 0, the deformation field is not smooth. In our application, a smooth field is not very important, but different regularizations and more loss functions will be introduced in the final paper.
 
 #### Some example data can be found here: <a href="https://drive.google.com/open?id=1cle8nV8g-xxt_SfaJxD-zMSnuXiZoygT"> required data</a>.
 
