@@ -1,3 +1,7 @@
+"""
+Junyu Chen
+jchen245@jhmi.edu
+"""
 from keras import backend as K
 import losses, nets
 import sys, os, nrrd
