@@ -1,3 +1,7 @@
+"""
+Junyu Chen
+jchen245@jhmi.edu
+"""
 import keras.layers as KL
 from keras.layers import *
 import sys, image_warp
