@@ -1,5 +1,7 @@
-
 """
+Junyu Chen
+jchen245@jhmi.edu
+
 Image warping using per-pixel flow vectors.
 
 Modified from:
