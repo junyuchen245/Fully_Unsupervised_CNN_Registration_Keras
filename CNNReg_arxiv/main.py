@@ -135,9 +135,9 @@ moving_atlas = resize(moving_atlas, (sz_x, sz_y), anti_aliasing=False, order=0)
 moving       = moving.reshape(1,sz_x, sz_y,1)
 moving_atlas = moving_atlas.reshape(1,sz_x, sz_y,1)
 target       = target.reshape(1,sz_x,sz_y,1)
-
+# reset model weights
+reset_weights(reg_model)
 for iter_i in range(4000):
-    #reset_weights(reg_model)
     reg_model.train_on_batch([moving, target], target)
     loss = reg_model.test_on_batch([moving, target], target)
     print('loss = ' + str(loss))
