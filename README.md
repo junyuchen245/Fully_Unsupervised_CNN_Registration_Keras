@@ -18,8 +18,6 @@ This program does 2D registration, the 3D version will be uploaded in the future
 ## Sample results for XCAT phantom to and patient CT registration:
 <img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/Sample_out.png" width="1400"/>
 
-
-                                        Deformed Moving    Moving (XCAT)       Fixed (CT)     Deformed Labels
  If you find this code is useful in your research, please consider to cite:
 
     @article{doi:10.1002/mp.14545,
