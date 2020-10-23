@@ -2,7 +2,7 @@
 
 This is a Keras/Tensorflow implementation of my paper:
 
-<a href="https://arxiv.org/abs/1912.02942">Chen, Junyu, et al. "Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks." arXiv preprint arXiv:1912.02942, 2020.</a>
+<a href="https://arxiv.org/abs/1912.02942">Chen, Junyu, et al. "Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks." Medical Physics. Accepted Author Manuscript. doi:10.1002/mp.14545. 2020.</a>
 
 We treat CNN as an optimization tool that iteratively minimizes the loss function via reparametrization in each
 iteration. This means that the algorithm is fully unsupervised and thus **no prior training is required**. For now, the loss function is simply the image similarity measure (i.e., alpha = 0):
