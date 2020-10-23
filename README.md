@@ -20,5 +20,20 @@ This program does 2D registration, the 3D version will be uploaded in the future
 
 
                                         Deformed Moving    Moving (XCAT)       Fixed (CT)     Deformed Labels
+ If you find this code is useful in your research, please consider to cite:
+
+    @article{doi:10.1002/mp.14545,
+    author = {Chen, Junyu and Li, Ye and Du, Yong and Frey, Eric C.},
+    title = {Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks},
+    journal = {Medical Physics},
+    volume = {n/a},
+    number = {n/a},
+    pages = {},
+    doi = {10.1002/mp.14545},
+    url = {https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14545},
+    eprint = {https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.14545},
+    }
+
+ 
  
 ### <a href="https://junyuchen245.github.io"> About Myself</a>
