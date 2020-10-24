@@ -5,7 +5,7 @@ This is a Keras/Tensorflow implementation of my paper:
 <a href="https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14545">Chen, Junyu, et al. "Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks." Medical Physics. Accepted Author Manuscript. doi:10.1002/mp.14545. 2020.</a>
 
 We treat CNN as an optimization tool that iteratively minimizes the loss function via reparametrization in each
-iteration. This means that the algorithm is fully unsupervised and thus **no prior training is required**.
+iteration. This means that the algorithm is fully unsupervised and thus **no prior training is required**. For most updated scripts, see "CNN_MedPhy/" folder.
 
 <img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/loss.png" width="300"/>
 
