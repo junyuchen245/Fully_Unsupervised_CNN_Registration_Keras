@@ -40,4 +40,4 @@ iteration. This means that the algorithm is fully unsupervised and thus **no pri
 
  
  
-### <a href="https://junyuchen245.github.io"> About Myself</a>
+### <a href="https://junyuchen245.github.io"> About Me</a>
