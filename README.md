@@ -1,4 +1,4 @@
-# 2D/3D Medical Imaging Registration via Fully Unsupervised CNN
+# 2D/3D Medical Imaging Registration via Fully Unsupervised ConvNet
 
 This is a Keras/Tensorflow implementation of my paper:
 
