@@ -20,7 +20,7 @@ This program does 2D registration, the 3D version will be uploaded in the future
 
  If you find this code is useful in your research, please consider to cite:
 
-    @article{doi:10.1002/mp.14545,
+    @article{chen2020phantoms,
     author = {Chen, Junyu and Li, Ye and Du, Yong and Frey, Eric C.},
     title = {Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks},
     journal = {Medical Physics},
