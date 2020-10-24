@@ -9,7 +9,7 @@ iteration. This means that the algorithm is fully unsupervised and thus **no pri
 
 <img src="https://github.com/junyuchen245/Fully_unsupervised_CNN_registration/blob/master/CNNReg_arxiv/loss.png" width="300"/>
 
-, where I_d and I_f are the deformed and the fixed image, respectively. 
+, where I_d and I_f are, respectively, the deformed and the fixed image, L_sim represents the loss function for image similarity, and R represents the regularization applied on the deformation field. 
 
 ## The effects of different loss functions:
 <img src="https://github.com/junyuchen245/Fully_Unsupervised_CNN_Registration_Keras/blob/master/sample_imgs/loss_compare.PNG" width="500"/>
