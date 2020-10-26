@@ -4,6 +4,8 @@ This is a Keras/Tensorflow implementation of my paper:
 
 <a href="https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14545">Chen, Junyu, et al. "Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks." Medical Physics. Accepted Author Manuscript. doi:10.1002/mp.14545. 2020.</a>
 
+<a href="http://jnm.snmjournals.org/content/61/supplement_1/522.short">Chen, Junyu, et al. "A fully unsupervised approach to create patient-like phantoms via Convolutional neural networks." Journal of Nuclear Medicine 61.supplement 1 (2020): 522-522.</a>
+
 For most updated scripts, see "CNN_MedPhy/" folder.
 
 We treat CNN as an optimization tool that iteratively minimizes the loss function via reparametrization in each
