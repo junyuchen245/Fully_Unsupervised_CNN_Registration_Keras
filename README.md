@@ -1,5 +1,7 @@
 # 2D/3D Medical Imaging Registration via Fully Unsupervised ConvNet
 
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+
 This is a Keras/Tensorflow implementation of my paper:
 
 <a href="https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14545">Chen, Junyu, et al. "Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks." Medical Physics. Accepted Author Manuscript. doi:10.1002/mp.14545. 2020.</a>
