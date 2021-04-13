@@ -4,7 +4,7 @@
 
 This is a Keras/Tensorflow implementation of my paper:
 
-<a href="https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14545">Chen, Junyu, et al. "Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks." Medical Physics. Accepted Author Manuscript. doi:10.1002/mp.14545. 2020.</a>
+<a href="https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14545">Chen, J., Li, Y., Du, Y. and Frey, E.C. (2020), Generating anthropomorphic phantoms using fully unsupervised deformable image registration with convolutional neural networks. Med. Phys., 47: 6366-6380. https://doi.org/10.1002/mp.14545</a>
 
 <a href="http://jnm.snmjournals.org/content/61/supplement_1/522.short">Chen, Junyu, et al. "A fully unsupervised approach to create patient-like phantoms via Convolutional neural networks." Journal of Nuclear Medicine 61.supplement 1 (2020): 522-522.</a>
 
@@ -34,17 +34,20 @@ iteration. This means that the algorithm is fully unsupervised and thus **no pri
 
  If you find this code is useful in your research, please consider to cite:
 
-    @article{chen2020phantoms,
+    @article{https://doi.org/10.1002/mp.14545,
     author = {Chen, Junyu and Li, Ye and Du, Yong and Frey, Eric C.},
-    title = {Generating Anthropomorphic Phantoms Using Fully Unsupervised Deformable Image Registration with Convolutional Neural Networks},
+    title = {Generating anthropomorphic phantoms using fully unsupervised deformable image registration with convolutional neural networks},
     journal = {Medical Physics},
-    volume = {n/a},
-    number = {n/a},
-    pages = {},
-    doi = {10.1002/mp.14545},
+    volume = {47},
+    number = {12},
+    pages = {6366-6380},
+    keywords = {computerized Phantom, convolutional Neural Networks, deep Neural Networks, image Registration, medical Image Simulation},
+    doi = {https://doi.org/10.1002/mp.14545},
     url = {https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14545},
     eprint = {https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.14545},
+    year = {2020}
     }
+
 
  
  
