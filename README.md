@@ -9,6 +9,7 @@ This is a Keras/Tensorflow implementation of my paper:
 <a href="http://jnm.snmjournals.org/content/61/supplement_1/522.short">Chen, Junyu, et al. "A fully unsupervised approach to create patient-like phantoms via Convolutional neural networks." Journal of Nuclear Medicine 61.supplement 1 (2020): 522-522.</a>
 
 For most updated scripts (TensorFlow 2.X), see "**CNN_MedPhy_TF2x/**" folder. 
+
 "**CNN_MedPhy_TF2x/img.zip**" contains an example image pair of moving and fixed images. Extract "**pat.pkl**" to "**CNN_MedPhy_TF2x/**", then you should be able to run "**CNN_MedPhy_TF2x/register3D_example.py**" without changing code. It took about 16 GB of GPU memory for this 3D registration.
 
 We treat CNN as an optimization tool that iteratively minimizes the loss function via reparametrization in each
